@@ -1,0 +1,72 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "编译",
+            "command": "make",
+            "args": [
+                "-j4"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "options": {
+                "cwd": "/home/sun/BaiLu/build"
+            },
+            "group": "build",
+            "detail": "By arm-none-eabi-gcc 10.3.1 20210824 (release)"
+        },
+        {
+            "type": "shell",
+            "label": "清除",
+            "command": "make clean",
+            "args": [],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "By arm-none-eabi-gcc 10.3.1 20210824 (release)"
+        },
+        {
+            "type": "shell",
+            "label": "CMake 配置",
+            "command": "cmake",
+            "args": [
+                ".."
+            ],
+            "options": {
+                "cwd": "/home/sun/BaiLu/build"
+            },
+            "problemMatcher": [],
+            "group": "build",
+            "detail": "CMake configuration"
+        },
+        {
+            "label": "CMake 和 编译",
+            "dependsOn": [
+                "CMake 配置",
+                "编译"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "烧录",
+            "command": "openocd",
+            "args": [
+                "-f",
+                "interface/stlink-v2-1.cfg",
+                "-f",
+                "target/stm32f4x.cfg",
+                "-c",
+                "program build/bailu.elf verify reset exit"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "By arm-none-eabi-gcc 10.3.1 20210824 (release)"
+        },
+    ]
+}

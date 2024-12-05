@@ -1,0 +1,232 @@
+[
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Core/stm32f4xx_it.c.o   -c /home/sun/BaiLu/Core/stm32f4xx_it.c",
+  "file": "/home/sun/BaiLu/Core/stm32f4xx_it.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Core/system_stm32f4xx.c.o   -c /home/sun/BaiLu/Core/system_stm32f4xx.c",
+  "file": "/home/sun/BaiLu/Core/system_stm32f4xx.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/ATKBLE01.c.o   -c /home/sun/BaiLu/Hardware/ATKBLE01.c",
+  "file": "/home/sun/BaiLu/Hardware/ATKBLE01.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/GY86.c.o   -c /home/sun/BaiLu/Hardware/GY86.c",
+  "file": "/home/sun/BaiLu/Hardware/GY86.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/LD2.c.o   -c /home/sun/BaiLu/Hardware/LD2.c",
+  "file": "/home/sun/BaiLu/Hardware/LD2.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/MyIIC.c.o   -c /home/sun/BaiLu/Hardware/MyIIC.c",
+  "file": "/home/sun/BaiLu/Hardware/MyIIC.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/OLED.c.o   -c /home/sun/BaiLu/Hardware/OLED.c",
+  "file": "/home/sun/BaiLu/Hardware/OLED.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/OLED2.c.o   -c /home/sun/BaiLu/Hardware/OLED2.c",
+  "file": "/home/sun/BaiLu/Hardware/OLED2.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/PWM.c.o   -c /home/sun/BaiLu/Hardware/PWM.c",
+  "file": "/home/sun/BaiLu/Hardware/PWM.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Hardware/Receiver2.c.o   -c /home/sun/BaiLu/Hardware/Receiver2.c",
+  "file": "/home/sun/BaiLu/Hardware/Receiver2.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/misc.c.o   -c /home/sun/BaiLu/Library/src/misc.c",
+  "file": "/home/sun/BaiLu/Library/src/misc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_adc.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_adc.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_adc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_can.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_can.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_can.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_crc.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_crc.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_crc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_cryp.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_cryp.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_cryp.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_cryp_aes.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_cryp_aes.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_cryp_aes.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_cryp_des.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_cryp_des.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_cryp_des.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_cryp_tdes.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_cryp_tdes.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_cryp_tdes.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_dac.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_dac.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_dac.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_dbgmcu.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_dbgmcu.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_dbgmcu.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_dcmi.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_dcmi.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_dcmi.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_dma.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_dma.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_dma.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_dma2d.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_dma2d.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_dma2d.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_exti.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_exti.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_exti.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_flash.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_flash.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_flash.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_flash_ramfunc.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_flash_ramfunc.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_flash_ramfunc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_gpio.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_gpio.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_gpio.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_hash.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_hash.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_hash.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_hash_md5.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_hash_md5.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_hash_md5.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_hash_sha1.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_hash_sha1.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_hash_sha1.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_i2c.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_i2c.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_i2c.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_iwdg.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_iwdg.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_iwdg.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_ltdc.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_ltdc.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_ltdc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_pwr.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_pwr.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_pwr.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_rcc.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_rcc.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_rcc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_rng.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_rng.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_rng.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_rtc.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_rtc.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_rtc.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_sai.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_sai.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_sai.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_sdio.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_sdio.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_sdio.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_spi.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_spi.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_spi.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_syscfg.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_syscfg.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_syscfg.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_tim.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_tim.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_tim.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_usart.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_usart.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_usart.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/Library/src/stm32f4xx_wwdg.c.o   -c /home/sun/BaiLu/Library/src/stm32f4xx_wwdg.c",
+  "file": "/home/sun/BaiLu/Library/src/stm32f4xx_wwdg.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/User/Delay.c.o   -c /home/sun/BaiLu/User/Delay.c",
+  "file": "/home/sun/BaiLu/User/Delay.c"
+},
+{
+  "directory": "/home/sun/BaiLu/build",
+  "command": "arm-none-eabi-gcc -DSTM32F401xx -DUSE_STDPERIPH_DRIVER -I/home/sun/BaiLu/Core -I/home/sun/BaiLu/Library/inc -I/home/sun/BaiLu/Hardware -I/home/sun/BaiLu/User  -mthumb -mcpu=cortex-m4 -std=c99 -g -Os     -ffunction-sections -fdata-sections -Wall -Wextra     -Wno-self-assign -Wno-unused-parameter -Wno-empty-body   -o CMakeFiles/bailu.elf.dir/User/main.c.o   -c /home/sun/BaiLu/User/main.c",
+  "file": "/home/sun/BaiLu/User/main.c"
+}
+]
