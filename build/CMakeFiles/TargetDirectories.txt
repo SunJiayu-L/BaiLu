@@ -1,5 +1,5 @@
-/home/sun/BaiLu/build/CMakeFiles/rebuild_cache.dir
+/home/sun/BaiLu/build/CMakeFiles/bailu.elf.dir
+/home/sun/BaiLu/build/CMakeFiles/bailu.bin.dir
 /home/sun/BaiLu/build/CMakeFiles/openocd.dir
 /home/sun/BaiLu/build/CMakeFiles/edit_cache.dir
-/home/sun/BaiLu/build/CMakeFiles/bailu.bin.dir
-/home/sun/BaiLu/build/CMakeFiles/bailu.elf.dir
+/home/sun/BaiLu/build/CMakeFiles/rebuild_cache.dir
